@@ -1,40 +1,6 @@
 import React from "react";
 import logo from "../assets/arya-logo-2.png";
-
-const colleges = [
-  {
-    title: "AIETM",
-    subtitle: "Arya Institute of Engg. Tech & Mgm",
-    image: "/images/colleges/AIETM.png",
-    reapCode: "10",
-    description:
-      "A.I.E.T.M., the Arya Institute of Engineering Technology & Management, is one of the most prominent colleges ...",
-  },
-  {
-    title: "AIET",
-    subtitle: "Arya Institute of Engg. & Tech",
-    image: "/images/colleges/AIET.png",
-    reapCode: "10",
-    description:
-      "Another branch of Arya College is the Arya Institute of Engineering & Technology (A.I.E.T.), the foremost ...",
-  },
-  {
-    title: "ACERC",
-    subtitle: "Arya College of Engg. & Res Centre",
-    image: "/images/colleges/ACERC.png",
-    reapCode: "10",
-    description:
-      "The flagship of Arya college under the Arya group of colleges, the A.C.E.R.C., aims to prepare students for challenges through relevant training ...",
-  },
-  {
-    title: "ACP",
-    subtitle: "Arya College of Pharmacy",
-    image: "/images/colleges/ACP.png",
-    reapCode: "10",
-    description:
-      "Arya Group of Colleges also has a college for pharmacy, the Arya College of Pharmacy, established in 2004...",
-  },
-];
+import { colleges } from "../utils/constants";
 
 const CollegesCardSection = () => {
   return (
@@ -83,10 +49,10 @@ const CollegesCardSection = () => {
               </p>
 
               <div className="flex gap-2">
-                <button className="px-4 py-1 text-sm border border-[#2D2AAF] text-[#2D2AAF] rounded-md hover:bg-[#2D2AAF] hover:text-white transition">
+                <button className="px-4 py-1 text-sm border border-[#2D2AAF] text-[#2D2AAF] rounded-md hover:bg-[#2D2AAF] hover:text-white transition transform duration-300 hover:scale-110">
                   View More
                 </button>
-                <button className="px-4 py-1 text-sm border border-gray-300 text-gray-700 rounded-md hover:bg-gray-100 transition">
+                <button className="px-4 py-1 text-sm border border-gray-300 text-gray-700 rounded-md hover:bg-gray-100 transition transform duration-300 hover:scale-110">
                   Apply Now
                 </button>
               </div>

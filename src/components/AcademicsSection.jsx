@@ -2,6 +2,7 @@ import React from "react";
 import { GraduationCap, Award, Hospital, FileText } from "lucide-react";
 
 const AcademicsSection = () => {
+  
   const cardBaseStyle =
     "rounded-xl px-6 py-7 relative overflow-hidden transition-all duration-300 cursor-pointer border border-white";
 
@@ -15,6 +16,7 @@ const AcademicsSection = () => {
 
   return (
     <section className="w-full bg-gradient-to-br from-[#C61A2D] via-[#592D90] to-[#0044DE] p-10 text-white grid grid-cols-1 md:grid-cols-2 gap-10 font-sans">
+      
       {/* Left Content */}
       <div className="flex flex-col justify-center max-w-xl">
         <span className="bg-[#EB3237] text-white text-sm font-semibold px-5 py-1 rounded-md mb-4 w-fit">
@@ -34,6 +36,7 @@ const AcademicsSection = () => {
 
       {/* Right 2x2 Cards */}
       <div className="grid grid-cols-2 gap-5">
+        
         {/* Card 1 */}
         <div className={`${cardBaseStyle} ${cardHoverStyle}`}>
           <div

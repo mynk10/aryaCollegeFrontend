@@ -1,12 +1,6 @@
 import React from "react";
 import logo from "../assets/arya-logo-1.png";
-
-const cards = [
-  "Arya College has a definite purpose and represents the inter-firm cooperative agreements aiming to achieve a competitive advantage for the partners.",
-  "Arya College also highlights the primary advantage for the academic community, industry, research funding, and practical learning opportunities for students.",
-  "It's a design or approach, and the primary motive is to create success factors among students.",
-  "It extracts valuable lessons to help others utilize the strategic alliance between Arya College and its industries.",
-];
+import { industrialAllianceCards } from "../utils/constants";
 
 const IndustrialAllianceSection = () => {
   return (
@@ -23,7 +17,7 @@ const IndustrialAllianceSection = () => {
       </p>
 
       <div className="grid gap-6 md:grid-cols-2">
-        {cards.map((text, i) => (
+        {industrialAllianceCards.map((text, i) => (
           <div
             key={i}
             className="flex items-start gap-4 p-6 rounded-xl shadow-md transition-all duration-300 bg-white text-gray-800 hover:bg-gradient-to-r hover:from-[#A9203E] hover:to-[#2548B0] hover:text-white"

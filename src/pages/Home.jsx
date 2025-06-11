@@ -7,6 +7,8 @@ import RecruitmentSection from "../components/RecruitmentSection";
 import IndustrialAllianceSection from "../components/IndustrialAllianceSection";
 import IndustryLogoCarousel from "../components/IndustryLogoCarousal";
 import CollegesCardSection from "../components/CollegesCardSection";
+import AwardsAndRecognition from "../components/AwardsRecognitionSection";
+import TestimonialCarousel from "../components/TestimonialCarousel";
 
 const Home = () => {
   return (
@@ -19,6 +21,8 @@ const Home = () => {
       <IndustrialAllianceSection />
       <IndustryLogoCarousel />
       <CollegesCardSection />
+      <AwardsAndRecognition />
+      <TestimonialCarousel />
     </div>
   );
 };

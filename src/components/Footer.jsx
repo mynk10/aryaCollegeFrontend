@@ -1,0 +1,98 @@
+import React from "react";
+import logo from "../assets/arya-logo-3.png";
+import { FaFacebookF, FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
+
+const Footer = () => {
+  return (
+    <footer className="text-white">
+      {/* Gradient Section */}
+      <div className="bg-gradient-to-r from-[#781c3e] to-[#143D87] pt-10 pb-6">
+        <div className="max-w-7xl mx-auto px-4 grid md:grid-cols-4 gap-10">
+          {/* Column 1  */}
+          <div>
+            <img src={logo} alt="Arya College" className="w-32 mb-3" />
+            <p className="mb-4">
+              Arya College is the Best Engineering College in the entire
+              Rajasthan.
+            </p>
+
+            <div className="mb-4">
+              <h4 className="font-semibold mb-2">Address</h4>
+              <p>
+                SP-40, RIICO Industrial Area, Kukas, <br />
+                Jaipur, Rajasthan, 302028
+              </p>
+            </div>
+
+            <div>
+              <h4 className="font-semibold mb-2">Social Media</h4>
+              <div className="flex space-x-4 text-xl">
+                <FaFacebookF className="hover:text-red-500 cursor-pointer" />
+                <FaInstagram className="hover:text-red-500 cursor-pointer" />
+                <FaTwitter className="hover:text-red-500 cursor-pointer" />
+                <FaYoutube className="hover:text-red-500 cursor-pointer" />
+              </div>
+            </div>
+          </div>
+
+          {/* Column 2 */}
+          <div>
+            <h4 className="font-semibold mb-3">Quick Links</h4>
+            <ul className="space-y-2 text-sm [&>li:hover]:text-red-500 [&>li]:cursor-pointer">
+              <li>About Us</li>
+              <li>News</li>
+              <li>Placement</li>
+              <li>Contact us</li>
+              <li>Blogs</li>
+              <li>Resources</li>
+              <li>Mail Center</li>
+              <li>Google</li>
+              <li>Wikipedia</li>
+            </ul>
+          </div>
+
+          {/* Column 3 */}
+          <div>
+            <h4 className="font-semibold mb-3">Admissions</h4>
+            <ul className="space-y-2 text-sm [&>li:hover]:text-red-500 [&>li]:cursor-pointer">
+              <li>Download</li>
+              <li>Prospectus</li>
+              <li>Admisison</li>
+              <li>Procedure</li>
+              <li>Fee Structure</li>
+              <li>Our Affiliation</li>
+              <li>Degree Status</li>
+              <li>Bank Loan Assistance</li>
+              <li>Industrial Alliances</li>
+              <li>Privacy Policy</li>
+              <li>Terms and Conditions</li>
+              <li>Refund Policy</li>
+            </ul>
+          </div>
+
+          {/* Column 4 */}
+          <div>
+            <h4 className="font-semibold mb-3">Other Links</h4>
+            <ul className="space-y-2 text-sm [&>li:hover]:text-red-500 [&>li]:cursor-pointer">
+              <li>Top Engineering College in Jaipur</li>
+              <li>Best Engineering College in Jaipur</li>
+              <li>Best B.Tech College in India</li>
+              <li>Best University for B.tech in India</li>
+              <li>Best Private University in India for b tech</li>
+              <li>Best Private Engineering College in India</li>
+              <li>Top 10 Private Engineering College in India</li>
+              <li>Bachelor of Technology – B Tech Courses</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      {/* BottomBar */}
+      <div className="bg-white text-center text-sm text-black py-1">
+        © Copyright
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;

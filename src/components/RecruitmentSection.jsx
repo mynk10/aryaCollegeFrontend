@@ -1,28 +1,6 @@
 import React from "react";
 import { Download } from "lucide-react";
-
-const recruitmentData = [
-  {
-    year: "2021–2022",
-    offers: "750+",
-    image: "/images/placements/21-22.png",
-  },
-  {
-    year: "2020–2021",
-    offers: "550+",
-    image: "/images/placements/20-21.png",
-  },
-  {
-    year: "2019–2020",
-    offers: "820+",
-    image: "/images/placements/19-20.png",
-  },
-  {
-    year: "2018–2019",
-    offers: "820+",
-    image: "/images/placements/18-19.png",
-  },
-];
+import { recruitmentData } from "../utils/constants";
 
 const RecruitmentSection = () => {
   return (

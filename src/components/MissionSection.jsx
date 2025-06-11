@@ -1,7 +1,5 @@
 import React from "react";
-import campus from "../assets/campus.jpg"; // Replace with actual path
-// import admissionIcon from "../assets/admission-icon.png"; // Optional: Icon used in red button
-// import clickIcon from "../assets/click-icon.png"; // Replace with actual icon (like hand click)
+import campus from "../assets/campus.jpg";
 import starIcon from "../assets/star-icon.png";
 
 const MissionVisionSection = () => {
@@ -68,7 +66,7 @@ const MissionVisionSection = () => {
           </div>
         </div>
 
-        {/* Image with Callout */}
+        {/* Image */}
         <div className="relative w-full lg:w-[600px]">
           <img
             src={campus}
@@ -90,7 +88,6 @@ const MissionVisionSection = () => {
               <span className="bg-[#F13A40] text-white px-2 py-1 rounded text-xs">
                 Admission Open
               </span>
-              {/* <img src={clickIcon} alt="Click" className="w-5 h-5" /> */}
             </div>
           </div>
         </div>

@@ -1,38 +1,24 @@
 import React from "react";
-
-const logos = [
-  "/images/industryLogos/amcat.png",
-  "/images/industryLogos/bsdu.png",
-  "/images/industryLogos/cadc.png",
-  "/images/industryLogos/coCubes.png",
-  "/images/industryLogos/tcs.png",
-  "/images/industryLogos/consultadd.png",
-  "/images/industryLogos/wonderCement.png",
-  // Add more logo paths as needed
-];
+import { industryLogos } from "../utils/constants";
 
 const IndustryLogoCarousel = () => {
   return (
-    <section className="w-full bg-white py-12 px-6">
-      <h2 className="text-2xl font-bold text-center mb-8 text-gray-800">
-        Our Industry Collaborations
+    <div className="bg-[#f8f8f8] py-10">
+      <h2 className="text-center text-2xl font-semibold text-blue-800 mb-10">
+        Industrial Alliance
       </h2>
 
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6 place-items-center">
-        {logos.map((src, idx) => (
+      <div className="flex flex-wrap justify-center gap-6 px-4">
+        {industryLogos.map((logo, index) => (
           <div
-            key={idx}
-            className="w-[150px] h-[80px] flex items-center justify-center border border-gray-300 bg-gray-50 rounded-lg shadow-sm p-4 hover:scale-105 hover:border-red-500 transition-all duration-300"
+            key={index}
+            className="bg-white rounded-lg shadow-sm flex items-center justify-center w-36 h-24 p-4 transform transition-transform duration-300 hover:scale-110"
           >
-            <img
-              src={src}
-              alt={`Logo ${idx + 1}`}
-              className="max-h-full max-w-full object-contain"
-            />
+            <img src={logo} className="object-contain h-full" />
           </div>
         ))}
       </div>
-    </section>
+    </div>
   );
 };
 
