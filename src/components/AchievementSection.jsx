@@ -6,7 +6,7 @@ const AchievementSection = () => {
   return (
     <section className="bg-[#F3F3F3] w-full">
       <div className="flex flex-col md:flex-row items-center justify-center">
-        {/* Left Red Card - stays same for both mobile and desktop */}
+        {/* Left Red Card  */}
         <div className="bg-[#F13A40] px-4 py-5 text-white flex items-center gap-4 w-full md:w-[251px] max-w-[251px]">
           <img
             src={logo}
@@ -18,7 +18,7 @@ const AchievementSection = () => {
           </div>
         </div>
 
-        {/* Achievement Cards - scrollable on mobile */}
+        {/* Achievement Cards */}
         <div className="w-full overflow-x-auto py-5 px-4 md:overflow-visible ">
           <div className="flex gap-4 w-max md:w-full md:flex-wrap  md:justify-start">
             {achievements.map((item, idx) => (

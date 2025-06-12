@@ -9,7 +9,7 @@ const RecruitmentSection = () => {
         Recruitment In Arya College
       </h2>
 
-      {/* Buttons - Scrollable on mobile */}
+      {/* Buttons */}
       <div className="flex overflow-x-auto pb-2 mb-8 sm:mb-10 scrollbar-hidden sm:justify-center sm:flex-wrap gap-3 sm:gap-4 ">
         {[
           "Highest Package",

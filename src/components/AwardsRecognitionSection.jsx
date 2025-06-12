@@ -25,7 +25,7 @@ const AwardsAndRecognition = () => {
           </button>
         </div>
 
-        {/* 2x4 grid on mobile, expand to more cols on larger screens */}
+        {/* 2x4 grid on mobile */}
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
           {studentsLifeImages.slice(0, 8).map((src, idx) => (
             <div key={idx} className="overflow-hidden rounded-lg shadow-md">

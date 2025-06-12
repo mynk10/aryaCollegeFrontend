@@ -8,7 +8,6 @@ const HeroSection = () => {
       <div className="w-full md:w-1/2 mb-8 md:mb-0 md:pr-8">
         <div className="flex items-center gap-3 mb-4">
           {" "}
-          {/* Removed flex-col sm:flex-row */}
           <button className="bg-[#F13A40] text-white px-4 py-2 rounded-md text-sm cursor-pointer whitespace-nowrap">
             Admission Open 2025
           </button>

@@ -6,8 +6,7 @@ const TestimonialCarousel = () => {
   const carouselRef = useRef(null);
   const [activeIndex, setActiveIndex] = useState(0);
 
-  // Width per card — dynamic for responsiveness
-  const cardWidth = 300; // approx for desktop, can be overridden with CSS media
+  const cardWidth = 300;
 
   const scrollToIndex = (index) => {
     setActiveIndex(index);

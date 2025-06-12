@@ -19,7 +19,7 @@ const Navbar = () => {
             <img src={logo} alt="Arya Logo" className="h-10 w-auto" />
           </div>
 
-          {/* Desktop Nav Links - Hidden on mobile */}
+          {/* Desktop Nav Links  */}
           <ul className="hidden md:flex space-x-6 text-sm font-medium items-center">
             {navItems.map((item, index) => (
               <li key={index} className="relative">

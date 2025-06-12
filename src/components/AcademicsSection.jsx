@@ -8,11 +8,11 @@ const AcademicsSection = () => {
   const iconWrapperStyle =
     "p-2 rounded-full mb-3 sm:mb-4 w-fit bg-[#EB3237] text-white";
 
-  // Desktop hover effects (only on desktop)
+  // Desktop hover effect
   const desktopHoverStyle =
     "sm:hover:scale-105 sm:hover:bg-gradient-to-br sm:hover:from-[#0044DE] sm:hover:to-[#C61A2D] sm:hover:text-white sm:hover:shadow-md sm:hover:shadow-black sm:hover:border-transparent";
 
-  // Mobile active effects (works on both mobile and desktop)
+  // Mobile active effect
   const activeStyle =
     "active:scale-105 active:bg-gradient-to-br active:from-[#0044DE] active:to-[#C61A2D] active:text-white active:shadow-md active:shadow-black active:border-transparent";
 

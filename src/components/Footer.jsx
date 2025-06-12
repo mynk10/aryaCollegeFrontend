@@ -8,7 +8,7 @@ const Footer = () => {
       {/* Gradient Section */}
       <div className="bg-gradient-to-r from-[#781c3e] to-[#143D87] pt-10 pb-6">
         <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-10 text-center md:text-left">
-          {/* Column 1 */}
+          
           <div className="flex flex-col items-center md:items-start">
             <img src={logo} alt="Arya College" className="w-32 mb-3" />
             <p className="mb-4 text-sm max-w-xs">
@@ -35,9 +35,9 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Quick Links + Admissions (side by side on mobile) */}
+          
           <div className="flex flex-col sm:flex-row gap-6 md:contents">
-            {/* Quick Links */}
+            
             <div className="sm:w-1/2">
               <h4 className="font-semibold mb-3">Quick Links</h4>
               <ul className="space-y-2 text-sm [&>li:hover]:text-red-500 [&>li]:cursor-pointer">
@@ -53,7 +53,7 @@ const Footer = () => {
               </ul>
             </div>
 
-            {/* Admissions */}
+            
             <div className="sm:w-1/2">
               <h4 className="font-semibold mb-3">Admissions</h4>
               <ul className="space-y-2 text-sm [&>li:hover]:text-red-500 [&>li]:cursor-pointer">
@@ -73,7 +73,7 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Other Links (stacked below in mobile) */}
+          
           <div>
             <h4 className="font-semibold mb-3">Other Links</h4>
             <ul className="space-y-2 text-sm [&>li:hover]:text-red-500 [&>li]:cursor-pointer">
