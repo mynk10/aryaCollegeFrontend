@@ -7,18 +7,18 @@ const Footer = () => {
     <footer className="text-white">
       {/* Gradient Section */}
       <div className="bg-gradient-to-r from-[#781c3e] to-[#143D87] pt-10 pb-6">
-        <div className="max-w-7xl mx-auto px-4 grid md:grid-cols-4 gap-10">
-          {/* Column 1  */}
-          <div>
+        <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-10 text-center md:text-left">
+          {/* Column 1 */}
+          <div className="flex flex-col items-center md:items-start">
             <img src={logo} alt="Arya College" className="w-32 mb-3" />
-            <p className="mb-4">
+            <p className="mb-4 text-sm max-w-xs">
               Arya College is the Best Engineering College in the entire
               Rajasthan.
             </p>
 
             <div className="mb-4">
               <h4 className="font-semibold mb-2">Address</h4>
-              <p>
+              <p className="text-sm">
                 SP-40, RIICO Industrial Area, Kukas, <br />
                 Jaipur, Rajasthan, 302028
               </p>
@@ -26,7 +26,7 @@ const Footer = () => {
 
             <div>
               <h4 className="font-semibold mb-2">Social Media</h4>
-              <div className="flex space-x-4 text-xl">
+              <div className="flex justify-center md:justify-start space-x-4 text-xl">
                 <FaFacebookF className="hover:text-red-500 cursor-pointer" />
                 <FaInstagram className="hover:text-red-500 cursor-pointer" />
                 <FaTwitter className="hover:text-red-500 cursor-pointer" />
