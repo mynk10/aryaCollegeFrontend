@@ -53,10 +53,10 @@ const CollegesCardSection = () => {
               </p>
 
               <div className="flex gap-2">
-                <button className="px-2 sm:px-4 py-1 text-xs sm:text-sm border border-[#2D2AAF] text-[#2D2AAF] rounded-md hover:bg-[#2D2AAF] hover:text-white transition transform duration-300 hover:scale-105">
+                <button className="px-2 sm:px-4 py-1 text-xs sm:text-sm border border-[#2D2AAF] text-[#2D2AAF] rounded-md cursor-pointer hover:bg-[#2D2AAF] hover:text-white transition transform duration-300 hover:scale-105">
                   View More
                 </button>
-                <button className="px-2 sm:px-4 py-1 text-xs sm:text-sm border border-gray-300 text-gray-700 rounded-md hover:bg-gray-100 transition transform duration-300 hover:scale-105">
+                <button className="px-2 sm:px-4 py-1 text-xs sm:text-sm border border-gray-300 text-gray-700 rounded-md cursor-pointer hover:bg-gray-100 transition transform duration-300 hover:scale-105">
                   Apply Now
                 </button>
               </div>

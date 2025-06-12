@@ -17,10 +17,10 @@ const AwardsAndRecognition = () => {
 
         {/* Buttons */}
         <div className="flex flex-col sm:flex-row justify-center items-center gap-4 mb-10">
-          <button className="w-full sm:w-auto border border-blue-700 text-blue-700 px-6 py-2 rounded-md hover:bg-blue-100 transition-transform duration-300 hover:scale-105">
+          <button className="w-full sm:w-auto border border-blue-700 text-blue-700 px-6 py-2 rounded-md cursor-pointer hover:bg-blue-100 transition-transform duration-300 hover:scale-105">
             Awards
           </button>
-          <button className="w-full sm:w-auto bg-blue-700 text-white px-6 py-2 rounded-md hover:bg-blue-800 transition-transform duration-300 hover:scale-105">
+          <button className="w-full sm:w-auto bg-blue-700 text-white px-6 py-2 rounded-md cursor-pointer hover:bg-blue-800 transition-transform duration-300 hover:scale-105">
             Students Life
           </button>
         </div>

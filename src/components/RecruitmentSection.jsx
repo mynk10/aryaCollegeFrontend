@@ -10,7 +10,7 @@ const RecruitmentSection = () => {
       </h2>
 
       {/* Buttons - Scrollable on mobile */}
-      <div className="flex overflow-x-auto pb-2 mb-8 sm:mb-10 scrollbar-hidden sm:justify-center sm:flex-wrap gap-3 sm:gap-4">
+      <div className="flex overflow-x-auto pb-2 mb-8 sm:mb-10 scrollbar-hidden sm:justify-center sm:flex-wrap gap-3 sm:gap-4 ">
         {[
           "Highest Package",
           "Top Recruiters",
@@ -21,7 +21,7 @@ const RecruitmentSection = () => {
             key={index}
             className={`
               px-4 sm:px-5 py-2 rounded-md font-medium border border-[#2025A0] text-[#2025A0] bg-white 
-              transition-all duration-200 whitespace-nowrap flex-shrink-0
+              transition-all duration-200 whitespace-nowrap flex-shrink-0 cursor-pointer
               hover:bg-[#2025A0] hover:text-white
             `}
           >
@@ -54,7 +54,9 @@ const RecruitmentSection = () => {
                 </div>
                 <div className="flex items-center justify-center px-4 py-3 bg-gray-100 text-gray-800 hover:bg-[#EB3237] hover:text-white transition-colors duration-300">
                   <Download className="w-4 h-4 mr-2" />
-                  <span className="text-sm font-medium">Download PDF</span>
+                  <span className="text-sm font-medium cursor-pointer">
+                    Download PDF
+                  </span>
                 </div>
               </div>
             ))}
